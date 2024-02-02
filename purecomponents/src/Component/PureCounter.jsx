@@ -21,6 +21,7 @@ class PureCounter extends PureComponent{
     render(){
         let {count,toggle}=this.state
         console.log(toggle)
+        console.log("This is Pure Component")
 
         var changeStyle = null;
         if (toggle){
